@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moul&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');  
+@import "tailwindcss";
+@keyframes scalePulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+.animate-scalePulse {
+  animation: scalePulse 1.2s infinite ease-in-out;
+}
+.moul-regular {
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.preahvihear-regular {
+  font-family: "Preahvihear", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.angkor-regular {
+  font-family: "Angkor", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montecarlo-regular {
+  font-family: "MonteCarlo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.e2 {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.ari {
+  font-family: "Arizonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.tan {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.funnel {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.gif-bg {
+  position: relative;
+  background-image: url("./assets/gif/Background.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.gif-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  z-index: -1;
+  background: rgba(20, 10, 40, 0.45); /* dark violet overlay */
+  pointer-events: none;
+}
+.stroc {
+  -webkit-text-stroke: 0.5px rgb(204, 0, 255); /* For WebKit browsers */
+  /* text-stroke: 0.5px rgb(204, 0, 255); Standard property */
+}
+.strok_white {
+  -webkit-text-stroke: 0.2px rgb(0, 0, 0); /* For WebKit browsers */
+  /* text-stroke: 0.5px rgb(204, 0, 255); Standard property */
+}
