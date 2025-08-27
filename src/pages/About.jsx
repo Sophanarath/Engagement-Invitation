@@ -6,33 +6,33 @@ import image3 from "../assets/gif/cuple.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
-
+import { Link } from "react-router-dom";
 function About() {
   return (
     <>
       <div className="flex flex-col items-center gap-10 gif-bg">
-        <p className="moul-regular sm:text-9xl text-4xl text-yellow-400 pt-8 strok_white">
+        <p className="moul-regular sm:text-4xl text-4xl text-yellow-400 pt-8 strok_white">
           សរីសួស្តីពិធីភ្ជាប់ពាក្យ
         </p>
         <div className="flex gap-10 items-center">
           <div className="flex flex-col items-center gap-8">
             <p className="preahvihear-regular text-yellow-500">កូនប្រុសនាម</p>
-            <p className="angkor-regular sm:text-9xl text-3xl text-white">
+            <p className="angkor-regular sm:text-4xl text-3xl text-white">
               លឹម
             </p>
-            <p className="angkor-regular sm:text-9xl text-3xl text-white">
+            <p className="angkor-regular sm:text-4xl text-3xl text-white">
               សុជានិត
             </p>
           </div>
-          <p className="montecarlo-regular sm:text-9xl text-5xl text-white">
+          <p className="montecarlo-regular sm:text-4xl text-5xl text-white">
             SN
           </p>
           <div className="flex flex-col items-center gap-8">
             <p className="preahvihear-regular text-yellow-500">កូនស្រីនាម</p>
-            <p className="angkor-regular sm:text-9xl text-3xl text-white">
+            <p className="angkor-regular sm:text-4xl text-3xl text-white">
               ទូច
             </p>
-            <p className="angkor-regular sm:text-9xl text-3xl text-white">
+            <p className="angkor-regular sm:text-4xl text-3xl text-white">
               ណាក់
             </p>
           </div>
@@ -40,7 +40,7 @@ function About() {
         <p className="preahvihear-regular text-yellow-500">
           ដែលនឹងប្រព្រឹត្តិទៅនៅ
         </p>
-        <p className="angkor-regular sm:text-9xl text-3xl text-white">
+        <p className="angkor-regular sm:text-4xl text-3xl text-white">
           ថ្ងៃទី ១២ ខែ ធ្នូ ឆ្នាំ ២០២៥
         </p>
         <p className="preahvihear-regular text-yellow-500">
@@ -64,7 +64,7 @@ function About() {
           </div>
         </button>
 
-        <p className="moul-regular sm:text-9xl text-4xl text-yellow-200 mt-26">
+        <p className="moul-regular sm:text-4xl text-4xl text-yellow-200 mt-26">
           សរីសួស្តីពិធីភ្ជាប់ពាក្យ
         </p>
         <div className="flex items-center gap-30">
@@ -77,7 +77,7 @@ function About() {
             <p className="angkor-regular text-yellow-200">លោកស្រី ចិន ឆន</p>
           </div>
         </div>
-        <p className="preahvihear-regular text-yellow-500 text-center px-10">
+        <p className="preahvihear-regular text-yellow-500 text-center px-10 lg:px-80">
           សម្តេច ទ្រង់ ឯកឧត្តម អ្នកឧកញ្ញ៉ា លោកឧកញ្ញ៉ា លោកជំទាវ លោក លោកស្រី
           អ្នកនាងកញ្ញ៉ា អញ្ជើញចូលរួមជាអធិបតី និង
           ជាភ្ញៀវកិត្តយសដើម្បីប្រសឹទ្ធពរជ័យ សិរិសួស្តី ជ័យមង្កល
@@ -86,22 +86,22 @@ function About() {
         <div className="flex items-center gap-12">
           <div className="flex flex-col items-center gap-2">
             <p className="preahvihear-regular text-yellow-500">កូនប្រុសនាម</p>
-            <p className="angkor-regular sm:text-9xl text-3xl text-white">
+            <p className="angkor-regular sm:text-4xl text-3xl text-white">
               លឹម
             </p>
-            <p className="angkor-regular sm:text-9xl text-3xl text-white">
+            <p className="angkor-regular sm:text-4xl text-3xl text-white">
               សុជានិត
             </p>
           </div>
-          <p className="montecarlo-regular sm:text-9xl text-5xl text-white">
+          <p className="montecarlo-regular sm:text-4xl text-5xl text-white">
             SN
           </p>
           <div className="flex flex-col items-center gap-2">
             <p className="preahvihear-regular text-yellow-500">កូនស្រីនាម</p>
-            <p className="angkor-regular sm:text-9xl text-3xl text-white">
+            <p className="angkor-regular sm:text-4xl text-3xl text-white">
               ទូច
             </p>
-            <p className="angkor-regular sm:text-9xl text-3xl text-white">
+            <p className="angkor-regular sm:text-4xl text-3xl text-white">
               ណាក់
             </p>
           </div>
@@ -109,7 +109,7 @@ function About() {
         <p className="preahvihear-regular text-yellow-500">
           ដែលនឹងប្រព្រឹត្តិ ទៅចាប់ពី ម៉ោង ៩​​ ព្រឹក
         </p>
-        <p className="angkor-regular sm:text-9xl text-3xl text-white">
+        <p className="angkor-regular sm:text-4xl text-3xl text-white">
           ថ្ងៃសុក្រទី ១២ ខែ ធ្នូ ឆ្នាំ ២០២៥
         </p>
         <div
@@ -128,7 +128,7 @@ function About() {
             <FontAwesomeIcon icon={faCalendar} />{" "}
           </div>
         </div>
-        <p className="moul-regular sm:text-9xl text-4xl text-yellow-200 mt-26">
+        <p className="moul-regular sm:text-4xl text-4xl text-yellow-200 mt-26">
           វិចិត្រសាល
         </p>
         <div className="flex flex-col items-center gap-2">
@@ -149,6 +149,7 @@ function About() {
             </div>
           </div>
         </div>
+        <link rel="stylesheet" href="" />
       </div>
     </>
   );
